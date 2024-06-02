@@ -166,6 +166,7 @@ cython_debug/
 
 # data
 input/
+*.csv
 
 # others notebook
 others_notebook/
