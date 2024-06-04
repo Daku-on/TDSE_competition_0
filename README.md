@@ -24,7 +24,7 @@
 |No.|Status|Name|Detail|Due Date|URL|
 |---|---|---|---|---|---|
 | 1 | Done | subの仕方を公開 | 参加のハードルを下げるため、簡単なモデルでsubする方法を公開する | 20240602 | N/A |
-| 2 | WIP | EDA notebookを作成 | 参加のハードルを下げるため、簡単なEDAも公開する | 20240602 | N/A |
+| 2 | Done | EDA notebookを作成 | 参加のハードルを下げるため、簡単なEDAも公開する | 20240602 | N/A |
 | 3 | New | WBSをひく | とりあえずTODOの優先順位だけでもつける | 20240611 | N/A |
 | 4 | New | CV vs. LB | trainとtestは分布が違いそうなのでcross val.は必須そう | N/A | N/A |
 | 5 | New | up/down sampling | 20240601参照 | N/A | N/A |
