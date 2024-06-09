@@ -27,7 +27,7 @@
 | 2 | Done | EDA notebookを作成 | 参加のハードルを下げるため、簡単なEDAも公開する | 20240602 | N/A |
 | 3 | New | WBSをひく | とりあえずTODOの優先順位だけでもつける | 20240611 | N/A |
 | 4 | New | CV vs. LB | trainとtestは分布が違いそうなのでcross val.は必須そう | N/A | N/A |
-| 5 | New | up/down sampling | 20240601参照 | N/A | N/A |
+| 5 | Done | up/down sampling | 20240601参照 | N/A | N/A |
 | 6 | New | 顧客のクラスタリング | おそらくいくつかクラスタがあるはずなので、仮説を検証しつつ必要ならモデルを分ける | N/A | N/A |
 | 7 | New | モデル解釈 | 効いている特徴量の抽出と、顧客への説明 | N/A | N/A |
 
