@@ -1,3 +1,5 @@
+# 空のデータフレームを返してしまう。
+# おそらくサンプリングで無限にループし、補正後のサンプル数が0になってしまっている。後で直す
 import pandas as pd
 from sklearn.utils import resample
 
@@ -87,7 +89,7 @@ def downsample_and_match_distributions(
 
     # すべてのカラムの分布を元データと一致させる
     # target_column以外の全カラムを取得
-    columns_to_match = df.columns.drop(target_column) 
+    columns_to_match = df.columns.drop(target_column)
     df_downsampled_corrected = match_all_distributions(
         df_downsampled,
         df,
