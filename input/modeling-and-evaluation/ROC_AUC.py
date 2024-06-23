@@ -1,3 +1,4 @@
+import numpy as np
 import pandas as pd
 from sklearn.metrics import roc_curve, roc_auc_score
 import matplotlib.pyplot as plt
@@ -49,6 +50,24 @@ def plot_roc_and_calculate_auc(
     plt.ylabel('True Positive Rate')
     plt.title('Receiver Operating Characteristic (ROC)')
     plt.legend(loc="lower right")
+
+    # しきい値をプロット
+    thresholds_length = len(thresholds)
+    # 一部のしきい値を表示するために等間隔で選択
+    sample_indices = np.linspace(0, thresholds_length - 1, num=10, dtype=int)
+    for i in sample_indices:
+        plt.scatter(fpr[i], tpr[i], marker='o', color='red')
+        plt.text(
+            fpr[i],
+            tpr[i],
+            f'{thresholds[i]:.2f}',
+            fontsize=9,
+            va='bottom',
+            ha='right',
+        )
+
+    plt.show()
+
     plt.show()
 
     return auc
